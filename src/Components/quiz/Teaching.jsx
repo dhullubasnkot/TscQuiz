@@ -68,7 +68,7 @@ const Teaching = () => {
     setUserAnswers((prev) => [...prev, "Skipped"]);
     goToNextQuestion(null);
   };
-
+// updated next question
   const goToNextQuestion = (isCorrect = null) => {
     if (isCorrect !== null) {
       if (isCorrect) {
