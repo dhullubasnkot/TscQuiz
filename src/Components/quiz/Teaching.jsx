@@ -98,7 +98,7 @@ const Teaching = () => {
         });
       }, 100);
     }
-  };
+  };//finished
 
   const handleStart = () => {
     if (nameInput.trim() !== "") {
