@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import quizData from "../Data/QuizData";
 import Navbar from "../navbar";
-
+//new quiz
 const NewQuiz = () => {
   const { category } = useParams();
   const navigate = useNavigate();
