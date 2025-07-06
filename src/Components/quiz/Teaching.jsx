@@ -68,7 +68,7 @@ const Teaching = () => {
     setUserAnswers((prev) => [...prev, "Skipped"]);
     goToNextQuestion(null);
   };
-// updated next question
+  // updated next question
   const goToNextQuestion = (isCorrect = null) => {
     if (isCorrect !== null) {
       if (isCorrect) {
@@ -98,7 +98,7 @@ const Teaching = () => {
         });
       }, 100);
     }
-  };//finished
+  }; //finished
 
   const handleStart = () => {
     if (nameInput.trim() !== "") {
